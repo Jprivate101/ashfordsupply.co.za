@@ -31,6 +31,9 @@ Plain HTML and CSS, hosted free on GitHub Pages. No build step, no framework, no
 
 Sent by [FormSubmit](https://formsubmit.co) (free, no account) to sales@ashfordsupply.co.za.
 
+- The form `action` uses FormSubmit's private alias `52e8e9a7129ea67d041b9a583c924e56` instead of the email address, so bots cannot scrape sales@ from the page. The alias belongs to sales@ashfordsupply.co.za (activated 27 Oct 2026).
+- To send enquiries somewhere else, change the action to `https://formsubmit.co/<new email>` and click the activation email FormSubmit sends on the first submission.
+
 - Spam protection: a hidden `_honey` field. Bots fill it in and FormSubmit drops the message. No CAPTCHA.
 - After sending, the visitor lands on `thanks.html` (set by the `_next` field).
 - Subject line of each enquiry: "New quote request from ashfordsupply.co.za".
